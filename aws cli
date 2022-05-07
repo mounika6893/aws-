@@ -1,0 +1,8 @@
+connect to ec2 instance > Run the below commands for "LINUX OS "
+curl "https://awscli.amazonaws.com/awscli-exe-linux-x86_64.zip" -o "awscliv2.zip"
+sudo apt install unzip
+unzip awscliv2.zip
+sudo ./aws/install
+aws --version       [to check version]
+aws configure       [give iam keys]
+
